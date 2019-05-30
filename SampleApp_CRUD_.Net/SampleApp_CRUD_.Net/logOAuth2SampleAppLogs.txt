@@ -1,0 +1,8 @@
+5/30/2019 12:36:06 PM: Authorization code obtained..
+5/30/2019 12:36:06 PM: Exchanging code for tokens..
+5/30/2019 12:36:16 PM: Making QBO API Call..
+5/30/2019 12:36:27 PM: Making AST Invoice API Call..
+5/30/2019 12:36:35 PM: AST Invoice calls successful..
+5/30/2019 12:41:09 PM: Making AST Invoice API Call..
+5/30/2019 12:41:11 PM: AST Invoice calls successful..
+5/30/2019 12:41:12 PM: Making QBO API Call..
