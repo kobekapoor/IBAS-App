@@ -6,3 +6,22 @@
 5/30/2019 12:41:09 PM: Making AST Invoice API Call..
 5/30/2019 12:41:11 PM: AST Invoice calls successful..
 5/30/2019 12:41:12 PM: Making QBO API Call..
+6/18/2019 10:18:28 AM: Authorization code obtained..
+6/18/2019 10:18:28 AM: Exchanging code for tokens..
+6/18/2019 10:18:32 AM: Making QBO API Call..
+6/18/2019 10:25:27 AM: 429.
+6/18/2019 11:02:16 AM: Authorization code obtained..
+6/18/2019 11:02:16 AM: Exchanging code for tokens..
+6/18/2019 11:02:19 AM: Making QBO API Call..
+6/18/2019 11:02:20 AM: QBO calls successful..
+6/18/2019 11:03:29 AM: Making QBO API Call..
+6/18/2019 11:03:29 AM: QBO calls successful..
+6/18/2019 11:03:30 AM: Making QBO API Call..
+6/18/2019 11:03:31 AM: QBO calls successful..
+6/18/2019 11:19:22 AM: Authorization code obtained..
+6/18/2019 11:19:22 AM: Exchanging code for tokens..
+6/18/2019 11:19:25 AM: Making QBO API Call..
+6/18/2019 11:19:26 AM: QBO calls successful..
+6/18/2019 11:19:31 AM: Making AST Invoice API Call..
+6/18/2019 11:19:36 AM: AST Invoice calls successful..
+6/18/2019 11:19:39 AM: Making QBO API Call..

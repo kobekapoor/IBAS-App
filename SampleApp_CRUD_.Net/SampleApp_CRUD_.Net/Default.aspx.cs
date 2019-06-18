@@ -118,6 +118,11 @@ namespace SampleApp_CRUD_DotNet
         {
             await qboApiCall("ASTInvoice");
         }
+
+        protected async void BtnPaymentCall_Click(object sender, EventArgs e)
+        {
+            await qboApiCall("Pay");
+        }
         #endregion
 
         public async Task performCodeExchange()
@@ -162,6 +167,14 @@ namespace SampleApp_CRUD_DotNet
                         output("Making QBO API Call.");
                         TestQBOCalls.allqbocalls(servicecontext);
                         output("QBO calls successful.");
+                        lblQBOCall.Visible = true;
+                        lblQBOCall.Text = "QBO Call successful";
+                    }
+                    else if (callType == "Pay")
+                    {
+                        output("Making Payment Call.");
+                        TestQBOCalls.paymentCall(servicecontext);
+                        output("Payment Call successful.");
                         lblQBOCall.Visible = true;
                         lblQBOCall.Text = "QBO Call successful";
                     }

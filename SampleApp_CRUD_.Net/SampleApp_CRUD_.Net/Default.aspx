@@ -37,11 +37,16 @@
                 <asp:label runat="server" id="lblConnected" visible="false">"Your application is connected!"</asp:label>
                 </p>  
 
-                <asp:Button id="btnQBOAPICall" runat="server" Text="Call QBO API" OnClick="BtnQBOAPICall_Click"/>
+                <asp:Button id="btnQBOAPICall" runat="server" Text="Call All QBO API's" OnClick="BtnQBOAPICall_Click"/>
                 <br /><br /><br />                
 
-                 <asp:Button id="btnASTCall" runat="server" Text="Try AST Invoice API call" OnClick="BtnASTInvoiceCall_Click"/>
+                 <asp:Button id="btnASTCall" runat="server" Text="Try AST Invoice API Call" OnClick="BtnASTInvoiceCall_Click"/>
                 <br /><br /><br />
+
+                <asp:Button id="Button1" runat="server" Text="Try Payment Call" OnClick="BtnPaymentCall_Click"/>
+                <br /><br /><br />
+
+                
 
                 <p><asp:label runat="server" id="lblQBOCall" visible="false"></asp:label></p>
                 <br /><br /><br />

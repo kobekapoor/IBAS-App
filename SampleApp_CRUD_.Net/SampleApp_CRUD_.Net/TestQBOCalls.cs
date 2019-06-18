@@ -6,12 +6,19 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using Intuit.Ipp.Core;
 using Intuit.Ipp.Data;
+using Intuit.Ipp.QueryFilter;
 
 namespace SampleApp_CRUD_DotNet
 {
     public static class TestQBOCalls
     {
 
+        public static void paymentCall(ServiceContext qboContextoAuth)
+        {
+            QueryService<Payment> entityQuery = new QueryService<Payment>(qboContextoAuth);
+            Payment existing = Helper.FindOrAdd<Payment>(qboContextoAuth, new Payment());
+            List<Payment> test = entityQuery.ExecuteIdsQuery("SELECT * FROM Payment where Id='" + existing.Id + "'").ToList<Payment>();
+        }
 
         public static void allqbocalls(ServiceContext qboContextoAuth)
         {
