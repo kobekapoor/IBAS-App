@@ -114,14 +114,14 @@ namespace SampleApp_CRUD_DotNet
             await qboApiCall("All");
         }
 
+        protected async void BtnPurchase_Click(object sender, EventArgs e)
+        {
+            await qboApiCall("Purchase");
+        }
+
         protected async void BtnASTInvoiceCall_Click(object sender, EventArgs e)
         {
             await qboApiCall("ASTInvoice");
-        }
-
-        protected async void BtnPaymentCall_Click(object sender, EventArgs e)
-        {
-            await qboApiCall("Pay");
         }
         #endregion
 
@@ -170,13 +170,14 @@ namespace SampleApp_CRUD_DotNet
                         lblQBOCall.Visible = true;
                         lblQBOCall.Text = "QBO Call successful";
                     }
-                    else if (callType == "Pay")
+                    if (callType == "Purchase")
                     {
-                        output("Making Payment Call.");
-                        TestQBOCalls.paymentCall(servicecontext);
-                        output("Payment Call successful.");
+                        output("Making Purchase Call.");
+                        string yo = TestQBOCalls.purchaseCall(servicecontext);
+                        output(yo);
+                        output("Purchase call successful.");
                         lblQBOCall.Visible = true;
-                        lblQBOCall.Text = "QBO Call successful";
+                        lblQBOCall.Text = yo;
                     }
                     else
                     {

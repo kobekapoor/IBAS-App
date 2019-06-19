@@ -13,11 +13,13 @@ namespace SampleApp_CRUD_DotNet
     public static class TestQBOCalls
     {
 
-        public static void paymentCall(ServiceContext qboContextoAuth)
+        public static string purchaseCall(ServiceContext qboContextoAuth)
         {
-            QueryService<Payment> entityQuery = new QueryService<Payment>(qboContextoAuth);
-            Payment existing = Helper.FindOrAdd<Payment>(qboContextoAuth, new Payment());
-            List<Payment> test = entityQuery.ExecuteIdsQuery("SELECT * FROM Payment where Id='" + existing.Id + "'").ToList<Payment>();
+            QueryService<Purchase> entityQuery = new QueryService<Purchase>(qboContextoAuth);
+            Purchase existing = Helper.FindOrAddPurchase(qboContextoAuth, PaymentTypeEnum.CreditCard);
+            List<Purchase> test = entityQuery.ExecuteIdsQuery("SELECT * FROM Purchase MaxResults 100").ToList<Purchase>();
+
+            return test[0].TotalAmt.ToString() + " and it is " + test[0].Line[0].ToString();
         }
 
         public static void allqbocalls(ServiceContext qboContextoAuth)
@@ -1898,6 +1900,16 @@ namespace SampleApp_CRUD_DotNet
             #endregion
 
             #endregion 
+        }
+
+        internal static List<Purchase> purchaseCall()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal static List<Payment> paymentCall()
+        {
+            throw new NotImplementedException();
         }
 
 

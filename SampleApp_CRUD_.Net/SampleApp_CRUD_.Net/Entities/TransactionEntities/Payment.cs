@@ -248,6 +248,8 @@ namespace SampleApp_CRUD_DotNet
             QueryService<Payment> entityQuery = new QueryService<Payment>(qboContextoAuth);
             Payment existing = Helper.FindOrAdd<Payment>(qboContextoAuth, new Payment());
             List<Payment> test = entityQuery.ExecuteIdsQuery("SELECT * FROM Payment where Id='" + existing.Id+"'").ToList<Payment>();
+
+
         }
 
         #endregion

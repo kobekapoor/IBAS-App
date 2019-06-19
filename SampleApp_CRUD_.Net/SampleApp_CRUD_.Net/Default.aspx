@@ -43,7 +43,7 @@
                  <asp:Button id="btnASTCall" runat="server" Text="Try AST Invoice API Call" OnClick="BtnASTInvoiceCall_Click"/>
                 <br /><br /><br />
 
-                <asp:Button id="Button1" runat="server" Text="Try Payment Call" OnClick="BtnPaymentCall_Click"/>
+                <asp:Button id="Button1" runat="server" Text="Try Payment Call" OnClick="BtnPurchase_Click"/>
                 <br /><br /><br />
 
                 

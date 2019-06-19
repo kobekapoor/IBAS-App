@@ -25,3 +25,79 @@
 6/18/2019 11:19:31 AM: Making AST Invoice API Call..
 6/18/2019 11:19:36 AM: AST Invoice calls successful..
 6/18/2019 11:19:39 AM: Making QBO API Call..
+6/18/2019 11:38:36 AM: Authorization code obtained..
+6/18/2019 11:38:36 AM: Exchanging code for tokens..
+6/18/2019 11:38:40 AM: Making Payment Call..
+6/18/2019 11:38:40 AM: Invalid/Expired Access Token..
+6/18/2019 11:38:59 AM: Making AST Invoice API Call..
+6/18/2019 11:39:05 AM: AST Invoice calls successful..
+6/18/2019 11:40:37 AM: Authorization code obtained..
+6/18/2019 11:40:37 AM: Exchanging code for tokens..
+6/18/2019 11:40:40 AM: Making AST Invoice API Call..
+6/18/2019 11:40:43 AM: AST Invoice calls successful..
+6/18/2019 11:40:50 AM: Making Payment Call..
+6/18/2019 11:40:50 AM: Payment Call successful..
+6/18/2019 11:42:28 AM: Authorization code obtained..
+6/18/2019 11:42:28 AM: Exchanging code for tokens..
+6/18/2019 11:42:29 AM: Making AST Invoice API Call..
+6/18/2019 11:42:34 AM: AST Invoice calls successful..
+6/18/2019 11:42:38 AM: Making Payment Call..
+6/18/2019 11:42:38 AM: 387.
+6/18/2019 11:42:38 AM: Payment Call successful..
+6/18/2019 11:48:25 AM: Authorization code obtained..
+6/18/2019 11:48:25 AM: Exchanging code for tokens..
+6/18/2019 11:48:28 AM: Making Payment Call..
+6/18/2019 11:48:29 AM: 300.
+6/18/2019 11:48:29 AM: Payment Call successful..
+6/18/2019 11:53:26 AM: Authorization code obtained..
+6/18/2019 11:53:26 AM: Exchanging code for tokens..
+6/18/2019 11:53:28 AM: Making Payment Call..
+6/18/2019 11:53:28 AM: 5421.
+6/18/2019 11:53:28 AM: Payment Call successful..
+6/18/2019 12:02:41 PM: Authorization code obtained..
+6/18/2019 12:02:41 PM: Exchanging code for tokens..
+6/18/2019 12:02:44 PM: Making Payment Call..
+6/18/2019 12:02:45 PM: Invalid/Expired Access Token..
+6/18/2019 12:03:47 PM: Authorization code obtained..
+6/18/2019 12:03:47 PM: Exchanging code for tokens..
+6/18/2019 12:03:55 PM: Making Payment Call..
+6/18/2019 12:03:55 PM: Invalid/Expired Access Token..
+6/18/2019 12:04:42 PM: Authorization code obtained..
+6/18/2019 12:04:42 PM: Exchanging code for tokens..
+6/18/2019 12:04:43 PM: Making Payment Call..
+6/18/2019 12:04:44 PM: .
+6/18/2019 12:04:44 PM: Payment Call successful..
+6/18/2019 12:06:00 PM: Authorization code obtained..
+6/18/2019 12:06:00 PM: Exchanging code for tokens..
+6/18/2019 12:06:01 PM: Making Payment Call..
+6/18/2019 12:06:02 PM: .
+6/18/2019 12:06:02 PM: Payment Call successful..
+6/18/2019 11:02:24 PM: Authorization code obtained..
+6/18/2019 11:02:24 PM: Exchanging code for tokens..
+6/18/2019 11:02:26 PM: Making Payment Call..
+6/18/2019 11:02:26 PM: Invalid/Expired Access Token..
+6/18/2019 11:06:30 PM: Authorization code obtained..
+6/18/2019 11:06:30 PM: Exchanging code for tokens..
+6/18/2019 11:06:33 PM: Making AST Invoice API Call..
+6/18/2019 11:06:37 PM: AST Invoice calls successful..
+6/18/2019 11:07:59 PM: Making Payment Call..
+6/18/2019 11:07:59 PM: Invalid/Expired Access Token..
+6/18/2019 11:31:39 PM: Authorization code obtained..
+6/18/2019 11:31:39 PM: Exchanging code for tokens..
+6/18/2019 11:31:43 PM: Making Purchase Call..
+6/18/2019 11:31:43 PM: Invalid/Expired Access Token..
+6/18/2019 11:37:26 PM: Authorization code obtained..
+6/18/2019 11:37:26 PM: Exchanging code for tokens..
+6/18/2019 11:37:27 PM: Making Purchase Call..
+6/18/2019 11:37:28 PM: 34 and it is Mastercard.
+6/18/2019 11:37:28 PM: Purchase call successful..
+6/18/2019 11:41:09 PM: Authorization code obtained..
+6/18/2019 11:41:09 PM: Exchanging code for tokens..
+6/18/2019 11:41:11 PM: Making Purchase Call..
+6/18/2019 11:41:12 PM: 34 and it is Intuit.Ipp.Data.Line[].
+6/18/2019 11:41:12 PM: Purchase call successful..
+6/18/2019 11:52:32 PM: Authorization code obtained..
+6/18/2019 11:52:32 PM: Exchanging code for tokens..
+6/18/2019 11:52:34 PM: Making Purchase Call..
+6/18/2019 11:52:35 PM: 34 and it is Intuit.Ipp.Data.Line.
+6/18/2019 11:52:35 PM: Purchase call successful..
