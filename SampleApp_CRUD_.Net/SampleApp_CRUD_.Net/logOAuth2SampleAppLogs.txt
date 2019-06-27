@@ -101,3 +101,6 @@
 6/18/2019 11:52:34 PM: Making Purchase Call..
 6/18/2019 11:52:35 PM: 34 and it is Intuit.Ipp.Data.Line.
 6/18/2019 11:52:35 PM: Purchase call successful..
+6/19/2019 10:02:41 AM: Authorization code obtained..
+6/19/2019 10:02:41 AM: Exchanging code for tokens..
+6/19/2019 10:02:43 AM: Making Purchase Call..

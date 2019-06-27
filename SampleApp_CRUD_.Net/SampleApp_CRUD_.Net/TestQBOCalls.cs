@@ -19,7 +19,7 @@ namespace SampleApp_CRUD_DotNet
             Purchase existing = Helper.FindOrAddPurchase(qboContextoAuth, PaymentTypeEnum.CreditCard);
             List<Purchase> test = entityQuery.ExecuteIdsQuery("SELECT * FROM Purchase MaxResults 100").ToList<Purchase>();
 
-            return test[0].TotalAmt.ToString() + " and it is " + test[0].Line[0].ToString();
+            return test[0].TotalAmt.ToString() + " and it is ";
         }
 
         public static void allqbocalls(ServiceContext qboContextoAuth)
